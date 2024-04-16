@@ -20,6 +20,7 @@ jobs:
       - name: afficher date de demain
         run: |
           php .public/index.php
+          
       - name: Test PHPUnit de MesDatesTest.php
         run: |
           ~/.composer/vendor/bin/phpunit ./tests/MesDatesTest.php
